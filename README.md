@@ -2,6 +2,8 @@
 
 This project demonstrates how to build a lightweight CI/CD pipeline using **GitHub Actions** and **Docker** to automatically build, test, and manage a containerized Flask application.
 
+---
+
 ## 🛠 Tech Stack
 
 - 🐍 Python (Flask)
@@ -21,6 +23,11 @@ This project demonstrates how to build a lightweight CI/CD pipeline using **GitH
 - ✅ Linting support
 - ✅ Version-controlled commits (30+ commits simulating real DevOps workflows)
 
+---
+
+## 📂 Project Structure
+
+```text
 .
 ├── app/                      # Flask application
 │   ├── app.py                # Main app logic
@@ -33,7 +40,6 @@ This project demonstrates how to build a lightweight CI/CD pipeline using **GitH
 ├── Makefile                  # Dev helper commands
 ├── LICENSE                   # License file
 └── README.md                 # Project documentation
-
 
 ## ⚙️ CI/CD Workflow (GitHub Actions)
 
