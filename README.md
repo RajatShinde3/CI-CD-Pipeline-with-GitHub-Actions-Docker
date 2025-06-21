@@ -21,23 +21,19 @@ This project demonstrates how to build a lightweight CI/CD pipeline using **GitH
 - ✅ Linting support
 - ✅ Version-controlled commits (30+ commits simulating real DevOps workflows)
 
----
+.
+├── app/                      # Flask application
+│   ├── app.py                # Main app logic
+│   └── tests/                # Unit tests
+├── .github/
+│   └── workflows/
+│       └── ci.yml            # GitHub Actions workflow
+├── docker-compose.yml        # Docker configuration
+├── docker-compose.dev.yml    # Dev environment overrides
+├── Makefile                  # Dev helper commands
+├── LICENSE                   # License file
+└── README.md                 # Project documentation
 
-## 📂 Project Structure
-
-├── app/ # Flask application
-│ ├── app.py # Main app logic
-│ └── tests/ # Unit tests
-├── .github/workflows/ # GitHub Actions CI config
-│ └── ci.yml
-├── docker-compose.yml # Docker container configuration
-├── docker-compose.dev.yml # Dev environment override
-├── Makefile # Helper commands
-├── README.md # This file
-└── LICENSE
-
-
----
 
 ## ⚙️ CI/CD Workflow (GitHub Actions)
 
